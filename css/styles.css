@@ -170,7 +170,7 @@ img {
   justify-content: center;
 }
 .item-ethics {
-  width: calc((100% -72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .subt-ethics {
   font-weight: 500;
