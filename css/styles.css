@@ -193,7 +193,6 @@ img {
 }
 .team-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 .team-title {
@@ -228,8 +227,6 @@ img {
 }
 .item-team {
   background-color: #fff;
-  flex-direction: column;
-  align-items: center;
   border-radius: 0 0 4px 4px;
 }
 
@@ -248,11 +245,11 @@ img {
 .portf-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
   row-gap: 48px;
 }
 .portf-item {
-  width: calc((100% - 48) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portf-subt {
   margin-bottom: 8px;
@@ -292,10 +289,6 @@ img {
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
   font-family: "Raleway", sans-serif;
 }
 
